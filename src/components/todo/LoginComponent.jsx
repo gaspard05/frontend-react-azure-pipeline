@@ -82,7 +82,7 @@ class LoginComponent extends Component {
     return (
       <div>
         <h1>Login</h1>
-        <h3>Azure Devops is awesome!!!</h3>
+        <h3>Azure DevOps is awesome!!!</h3>
         <div className="container">
           {/*<ShowInvalidCredentials hasLoginFailed={this.state.hasLoginFailed}/>*/}
           {this.state.hasLoginFailed && (
